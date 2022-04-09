@@ -1,0 +1,107 @@
+@media (max-width: 1199px) {
+    main section {
+        max-width: 80rem;
+    }
+    h1 {
+        font-size: 4rem;
+    }
+    .h1--strong {
+        font-size: 6.6rem;
+    }
+}
+@media (max-width: 924px) {
+    main section {
+        max-width: 60rem;
+    }
+    h1 {
+        font-size: 3.2rem;
+    }
+    .h1--strong {
+        font-size: 5.28rem;
+    }
+    .jumbotron_text {
+        position: absolute;
+        top: 1%;
+        right: 6%;   
+    } 
+}
+@media (max-width: 724px) {
+    main section {
+        max-width: 50rem;
+    }
+    h1 {
+        font-size: 2.88rem;
+    }
+    .h1--strong {
+        font-size: 5.2rem;
+    }
+    .jumbotron_text {
+        position: absolute;
+        top: 1%;
+        right: 3%;   
+    } 
+    h2 {
+        font-size: 2.4rem;
+   }
+    p {
+        font-size: 1.4rem;
+    }
+    .nav_styling {
+        font-size: 1.6rem;
+    }
+    .nav_styling--social {
+        font-size: 1.8rem;
+    }
+}
+@media (max-width: 539px) {
+    .navbar_position {
+        flex-direction: column;
+        justify-content: center;
+    }
+    section {
+        max-width: 40rem;
+    }
+    h1 {
+        font-size: 2.88rem;
+    }
+    .h1--strong {
+        font-size: 5.2rem;
+    }
+    .jumbotron_text {
+        position: absolute;
+        top: 1%;
+        right: 3%;   
+    } 
+    h2 {
+        font-size: 2.4rem;
+   }
+    p {
+        font-size: 1.4rem;
+    }
+    .nav_styling {
+        font-size: 1.6rem;
+    }
+    .nav_styling--social {
+        font-size: 1.8rem;
+    }
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    .nav-menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .nav-menu a {
+        display: block;
+        border-bottom: 1 px solid #EAEAEB;
+        margin: 0;
+    }
+    #check:checked + .nav-menu {
+        display: block;
+    }
+
+}
+
+
